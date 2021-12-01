@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="250"
+  height="250"
+  viewBox="0 0 250 250"
+  version="1.1">
+  <!-- code from w3schools -->
+  <defs>
+      <filter id="f1" x="0" y="0">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+      </filter>
+    </defs>
+
+<polyline points="150,150 25,20 50,30 25,150 50, 50 25, 60 50, 150 25, 80 50, 90 25, 150 50,110 25,120 50,130 25,140 50,150" style="fill:none;stroke:#fff9d4;stroke-width:5" />
+<circle cx="150" cy="150" r="50" stroke="#fff9d4" stroke-width="5" fill="#ffdee9" filter="url(#f1)"/>
+<rect x="150" y="150" width="50" height="50" stroke="#fff9d4" stroke-width="5" fill="#e6deff" filter="url(#f1)"/>
+<text x="158" y="190" fill="black">VWC</text>
+<animate attributeType="CSS" attributeName="opacity"
+from="1" to="0" dur="5s" repeatCount="indefinite" />
+
+</svg>
